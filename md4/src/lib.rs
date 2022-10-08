@@ -49,8 +49,8 @@ use digest::{
 
 #[derive(Clone)]
 pub struct Md4Core {
-    block_len: u64,
-    state: [u32; 4],
+    pub block_len: u64,
+    pub state: [u32; 4],
 }
 
 impl HashMarker for Md4Core {}
